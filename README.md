@@ -1,7 +1,7 @@
 # Riemannian Neural Hamiltonian Flows (RNHF)
 
 PyTorch code for the paper *Riemannian Neural Hamiltonian Flows: Geodesic
-Symplectic Transport and a Thermodynamic Reading of the Learned Potential*.
+Symplectic Transport and Interpretability*.
 It contains RNHF and its baseline RCNF on the plane R^2, the hyperbolic plane
 H^2 and the sphere S^2 (Sections 4.1-4.3), and the surrogate Hamiltonian
 Monte Carlo experiment on IceCube data (Section 4.4).
