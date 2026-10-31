@@ -1,0 +1,32 @@
+space: s2
+seed: 4
+target:
+  kind: vmf_mixture
+  mus:
+  - - 0.0
+    - 0.0
+    - 1.0
+  - - 0.9397
+    - 0.0
+    - -0.342
+  kappa: 20.0
+  weights:
+  - 0.6
+  - 0.4
+base:
+  kind: uniform_sphere
+model:
+  hidden: 90
+  depth: 3
+  n_steps: 30
+  sigma_p: 1.0
+  rcnf_reg: 0.05
+  rcnf_hidden: 128
+train:
+  n_samples: 6000
+  iters: 2760
+  batch: 256
+  lr: 0.001
+  n_val: 2000
+eval:
+  n_samples: 2000
